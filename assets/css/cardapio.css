@@ -1,0 +1,160 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #FFF9EB;
+}
+
+nav {
+    background-color: #fd867b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.btnnav {
+    font-weight: bold;
+}
+
+nav li:hover {
+    background-color: #E44737;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 4.4rem;
+}
+
+.logout {
+    width: 2vw;
+}
+
+#tipos {
+    display: flex;
+    justify-content: center;
+}
+
+.tipos-content {
+    border: solid 1px #d1d0d0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tipo-img {
+    margin: 10px;
+    width: 50%;
+}
+
+#items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items-content {
+    margin: 10px;
+    background: rgb(255, 160, 59);
+    background: linear-gradient(54deg, rgba(255, 160, 59, 1) 0%, rgba(255, 236, 204, 1) 100%);
+    border-radius: 10px;
+    width: 80vw;
+    height: 18vh;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    width: 50%;
+}
+
+.caption {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+blockquote {
+    width: 50%;
+}
+
+.button {
+    width: 5%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    font-size: 1.5rem;
+    width: 100%;
+    top: 65px;
+    left: 700px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.select-pdt_h2,
+.all-price_h2,
+.div-btn-odr {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btn-odr {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30vw;
+    font-size: 1.4rem;
+    cursor: pointer;
+    height: 7.9vh;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#mesa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#mesaSelect {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

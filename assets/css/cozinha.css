@@ -1,0 +1,93 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: linear-gradient(54deg, rgba(255, 160, 59, 1) 0%, rgba(255, 236, 204, 1) 100%);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+th {
+    background-color: #fd867b;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #d1d0d0;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #d1d0d0;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover td {
+    background-color: #ddd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-blue {
+    background-color: #008CBA;
+}
+
+.button-green {
+    background-color: #4CAF50;
+}
+
+.button-red {
+    background-color: #f44336;
+}
+
+.btn-att {
+    background-color: rgb(255, 103, 103);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn-excluir {
+    background-color: rgb(156, 156, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}

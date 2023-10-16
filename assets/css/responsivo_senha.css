@@ -1,0 +1,535 @@
+@media (min-width: 320px) and (max-width: 479px) {
+
+    /* MAIN */
+    #content {
+        width: 80vw;
+        height: 80vh;
+        position: relative;
+        top: 50%;
+        transform: translateY(10%);
+    }
+
+    /* LOGO */
+    .logo {
+        width: 40%;
+    }
+
+    /* TITLES */
+    h2 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    /* DIV INPUT EMAIL */
+
+    .Hr2 {
+        background-size: 20px;
+        width: 60vw;
+        height: 2.5vh;
+    }
+
+    /* DIV INPUT SENHA */
+
+    .Hr3 {
+        background-size: 20px;
+        align-self: center;
+        width: 60vw;
+        height: 2.5vh;
+    }
+
+    /* LINKS ALTERNATIVOS */
+
+    .esquecer {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    .cadastro {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    /* DIV BOTAO */
+
+    #Buttonitr {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Button-Login {
+        border: none;
+        color: white;
+        background-color: #FA3333;
+        width: 70%;
+        height: 45%;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 479px) {
+
+    /* DIV BOTAO */
+    #Buttonitr {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 719px) {
+
+    /* MAIN */
+    #content {
+        width: 50vw;
+        height: 80vh;
+        position: relative;
+        top: 50%;
+        transform: translateY(10%);
+    }
+
+    /* LOGO */
+    .logo {
+        width: 35%;
+    }
+
+    /* TITLES */
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    /* DIV INPUT EMAIL */
+
+    .Hr2 {
+        background-size: 20px;
+        width: 40vw;
+        height: 2.5vh;
+    }
+
+    /* DIV INPUT SENHA */
+
+    .Hr3 {
+        background-size: 20px;
+        align-self: center;
+        width: 40vw;
+        height: 2.5vh;
+    }
+
+    /* LINKS ALTERNATIVOS */
+
+    .esquecer {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    .cadastro {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    /* DIV BOTAO */
+
+    #Buttonitr {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .Button-Login {
+        border: none;
+        color: white;
+        background-color: #FA3333;
+        width: 70%;
+        height: 45%;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 719px) {
+
+    /* DIV BOTAO */
+    #Buttonitr {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 720px) and (max-width: 767px) {
+
+    /* MAIN */
+    #content {
+        width: 50vw;
+        height: 80vh;
+        position: relative;
+        top: 50%;
+        transform: translateY(10%);
+    }
+
+    /* LOGO */
+    .logo {
+        width: 35%;
+    }
+
+    /* TITLES */
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    /* DIV INPUT EMAIL */
+
+    .Hr2 {
+        background-size: 20px;
+        width: 40vw;
+        height: 2.5vh;
+    }
+
+    /* DIV INPUT SENHA */
+
+    .Hr3 {
+        background-size: 20px;
+        align-self: center;
+        width: 40vw;
+        height: 2.5vh;
+    }
+
+    /* LINKS ALTERNATIVOS */
+
+    .esquecer {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    .cadastro {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    /* DIV BOTAO */
+
+    #Buttonitr {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .Button-Login {
+        border: none;
+        color: white;
+        background-color: #FA3333;
+        width: 70%;
+        height: 45%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 899px) {
+
+    /* MAIN */
+    #content {
+        width: 50vw;
+        height: 80vh;
+        position: relative;
+        top: 50%;
+        transform: translateY(10%);
+    }
+
+    /* LOGO */
+    .logo {
+        width: 30%;
+    }
+
+    /* TITLES */
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    /* DIV INPUT EMAIL */
+
+    .Hr2 {
+        background-size: 20px;
+        width: 40vw;
+        height: 2.5vh;
+    }
+
+    /* DIV INPUT SENHA */
+
+    .Hr3 {
+        background-size: 20px;
+        align-self: center;
+        width: 40vw;
+        height: 2.5vh;
+    }
+
+    /* LINKS ALTERNATIVOS */
+
+    .esquecer {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    .cadastro {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    /* DIV BOTAO */
+
+    #Buttonitr {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .Button-Login {
+        border: none;
+        color: white;
+        background-color: #FA3333;
+        width: 70%;
+        height: 45%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+
+    /* MAIN */
+    #content {
+        width: 50vw;
+        height: 80vh;
+        position: relative;
+        top: 50%;
+        transform: translateY(10%);
+    }
+
+    /* LOGO */
+    .logo {
+        width: 30%;
+    }
+
+    /* TITLES */
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    /* DIV INPUT EMAIL */
+
+    .Hr2 {
+        background-size: 20px;
+        width: 40vw;
+        height: 2.5vh;
+    }
+
+    /* DIV INPUT SENHA */
+
+    .Hr3 {
+        background-size: 20px;
+        align-self: center;
+        width: 40vw;
+        height: 2.5vh;
+    }
+
+    /* LINKS ALTERNATIVOS */
+
+    .esquecer {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    .cadastro {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    /* DIV BOTAO */
+
+    #Buttonitr {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .Button-Login {
+        border: none;
+        color: white;
+        background-color: #FA3333;
+        width: 70%;
+        height: 45%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+
+    /* MAIN */
+    #content {
+        width: 30vw;
+        height: 80vh;
+        position: relative;
+        top: 50%;
+        transform: translateY(10%);
+    }
+
+    /* LOGO */
+    .logo {
+        width: 35%;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    /* DIV INPUT EMAIL */
+
+    .Hr2 {
+        background-size: 20px;
+        width: 20vw;
+        height: 2.5vh;
+    }
+
+    /* DIV INPUT SENHA */
+
+    .Hr3 {
+        background-size: 20px;
+        align-self: center;
+        width: 20vw;
+        height: 2.5vh;
+    }
+
+    /* LINKS ALTERNATIVOS */
+
+    .esquecer {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    .cadastro {
+        font-size: 0.8em;
+        margin: 5px;
+    }
+
+    /* DIV BOTAO */
+
+    #Buttonitr {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .Button-Login {
+        border: none;
+        color: white;
+        background-color: #FA3333;
+        width: 70%;
+        height: 45%;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    /* MAIN */
+    #content {
+        width: 25vw;
+        height: 80vh;
+        position: relative;
+        top: 50%;
+        transform: translateY(10%);
+    }
+
+    /* DIV PRINCIPAL */
+    #content-items {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-height: 80vh;
+      }
+
+    /* LOGO */
+    .logo {
+        width: 35%;
+    }
+
+    /* TITLES */
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    /* DIV INPUT EMAIL */
+
+    .Hr2 {
+        background-size: 20px;
+        width: 20vw;
+        height: 2.5vh;
+    }
+
+    /* DIV INPUT SENHA */
+
+    .Hr3 {
+        background-size: 20px;
+        align-self: center;
+        width: 20vw;
+        height: 2.5vh;
+    }
+
+    /* LINKS ALTERNATIVOS */
+
+    .esquecer {
+        font-size: 1em;
+        margin: 5px;
+    }
+
+    .cadastro {
+        font-size: 1em;
+        margin: 5px;
+    }
+
+    /* DIV BOTAO */
+
+    #Buttonitr {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Button-Login {
+        font-size: 1em;
+        border: none;
+        color: white;
+        background-color: #FA3333;
+        width: 70%;
+        height: 45%;
+    }
+}

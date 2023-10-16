@@ -1,0 +1,85 @@
+/* Estilizando a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: linear-gradient(54deg, rgba(255, 160, 59, 1) 0%, rgba(255, 236, 204, 1) 100%);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Estilizando as células do cabeçalho da tabela */
+th {
+    background-color: #fd867b;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #d1d0d0;
+}
+
+/* Estilizando as células de dados da tabela */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #d1d0d0;
+}
+
+/* Estilizando as linhas pares da tabela */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilizando as células de dados quando o mouse passa por cima */
+tr:hover td {
+    background-color: #ddd;
+}
+
+/* Estilizando o botão de pedido */
+.btn-pedido {
+    font-size: 1.4rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 30vw;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+.excluir-pedido {
+    background-color: rgb(255, 103, 103);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.editar-pedido {
+    background-color: rgb(156, 156, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.salvar-button {
+    background-color: rgb(156, 156, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}

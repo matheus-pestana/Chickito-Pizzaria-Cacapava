@@ -1,0 +1,282 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    nav {
+        width: 54rem;
+    }
+
+    .logo {
+        vertical-align: middle;
+        width: 4rem;
+    }
+
+
+    nav ul {
+        list-style: none;
+
+    }
+
+    .logout {
+        width: 10vw;
+    }
+
+    main {
+        width: 57rem;
+    }
+
+    html {
+        width: 57rem;
+    }
+
+    .items-content {
+        width: 90%;
+    }
+
+    .items-img {
+        width: 20vh;
+    }
+
+    .caption {
+        font-size: 1.5rem;
+    }
+
+    blockquote {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .preco {
+        font-size: 0.9rem;
+    }
+
+    .select-pdt_h2,
+.all-price_h2,
+.div-btn-odr {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btn-odr {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100vw;
+    font-size: 1.4rem;
+    cursor: pointer;
+    height: 7.9vh;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#mesa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#mesaSelect {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+}
+
+p {
+    text-align: center;
+}
+
+}
+
+@media (min-width: 480px) and (max-width: 719px) {
+
+    nav {
+        width: 100vw;
+    }
+
+    .logo {
+        vertical-align: middle;
+        width: 4rem;
+    }
+
+
+    nav ul {
+        list-style: none;
+
+    }
+
+    .logout {
+        width: 5vw;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    html {
+        width: 100vw;
+    }
+
+    .items-content {
+        width: 90vw;
+    }
+
+    .items-img {
+        width: 20vh;
+    }
+
+    .caption {
+        font-size: 1.3rem;
+    }
+
+    blockquote {
+        width: 100%;
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .preco {
+        font-size: 0.9rem;
+    }
+
+    .button {
+        margin: 10px;
+    }
+
+}
+
+@media (min-width: 720px) and (max-width: 1023px) {
+    nav {
+        width: 100vw;
+    }
+
+    .logo {
+        vertical-align: middle;
+        width: 4rem;
+    }
+
+
+    nav ul {
+        list-style: none;
+
+    }
+
+    .logout {
+        width: 5vw;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    html {
+        width: 100vw;
+    }
+
+    .items-content {
+        width: 95vw;
+    }
+
+    .items-img {
+        width: 20vh;
+    }
+
+    .caption {
+        font-size: 1.5rem;
+    }
+
+    blockquote {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .preco {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+    nav {
+        width: 100vw;
+    }
+
+    .logo {
+        width: 4rem;
+    }
+
+    nav ul {
+        list-style: none;
+
+    }
+
+    .logout {
+        width: 3vw;
+    }
+
+    .items-content {
+        width: 60vw;
+    }
+
+    .items-img {
+        width: 20vh;
+    }
+
+    .caption {
+        font-size: 1.5rem;
+    }
+
+    blockquote {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .preco {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+
+    .logo {
+        vertical-align: middle;
+        width: 4rem;
+    }
+
+
+    nav ul {
+        list-style: none;
+
+    }
+
+    .seta {
+        width: 20px;
+    }
+
+    .user {
+        width: 30px;
+    }
+
+    .items-content {
+        width: 60vw;
+    }
+
+    .items-img {
+        width: 20vh;
+    }
+
+    .caption {
+        font-size: 1.5rem;
+    }
+
+    blockquote {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .preco {
+        font-size: 0.9rem;
+    }
+}

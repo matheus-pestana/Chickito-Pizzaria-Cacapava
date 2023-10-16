@@ -1,0 +1,142 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: url('../img/Background.png') no-repeat center top fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+/* MAIN */
+
+#content {
+  background: rgb(58, 60, 76);
+  background: linear-gradient(140deg, rgba(58, 60, 76, 1) 0%, rgba(31, 34, 64, 1) 100%);
+  box-shadow: 10px 10px 10px black;
+  width: 25vw;
+  height: 70vh;
+  align-self: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(15%);
+}
+
+/* DIV PRINCIPAL */
+
+#content-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* LOGO */
+
+.logo {
+  margin-top: 10px;
+  width: 10%;
+  align-self: center;
+}
+
+/* LOGIN TITLE */
+
+#LOGINitr {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: white;
+  border-bottom: solid 1px white;
+  align-items: center;
+}
+
+/* DIV INPUT EMAIL */
+
+#E-mailitr {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  color: white;
+  align-self: center;
+}
+
+.Hr2 {
+  background: url(../img/Email.png) no-repeat;
+  background-position: right;
+  background-size: 30px;
+  align-self: center;
+  width: 20vw;
+  height: 2.5vh;
+  background-color: transparent;
+  border-bottom: solid 1px white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+/* DIV INPUT SENHA */
+
+#Passworditr {
+  display: flex;
+  flex-direction: column;
+}
+
+.Hr3 {
+  background: url(../img/Olho1.png) no-repeat;
+  color: white;
+  background-position: right;
+  background-size: 30px;
+  align-self: center;
+  width: 20vw;
+  height: 2.5vh;
+  background-color: transparent;
+  border-bottom: solid 1px white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* LINKS ALTERNATIVOS */
+
+#alts {
+  display: flex;
+  flex-direction: column;
+}
+
+.esquecer {
+  align-self: center;
+  color: white;
+  text-decoration: none;
+  border-bottom: solid 1px white;
+  margin: 5px;
+}
+
+.cadastro {
+  align-self: center;
+  color: white;
+  text-decoration: none;
+  border-bottom: solid 1px white;
+  margin: 5px;
+}
+
+/* DIV BOTAO */
+
+#Buttonitr {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button-Login {
+  border: none;
+  color: white;
+  background-color: #FA3333;
+  width: 70%;
+  height: 45%;
+}
