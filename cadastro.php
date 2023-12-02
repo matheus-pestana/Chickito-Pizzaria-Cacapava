@@ -38,6 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - Chikito Pizzaria</title>
+    <link rel="shortcut icon" type="imagex/png" href="assets/img/LogoChickito.png">
     <link rel="stylesheet" href="assets/css/cadastro.css">
     <link rel="stylesheet" href="assets/css/responsivo_cadastro.css">
     <script src="../Projeto chickito/assets/js/main.js"></script>
@@ -53,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <img class="logo" src="assets/img/LogoChickito.png" alt="Avatar">
 
             <!-- LOGIN -->
-             <form method="POST" action="">
+            <form action="" method="POST">
                 <div id="LOGINitr">
                     <h2 class="LOGIN">CADASTRO</h2><br>
                 </div>

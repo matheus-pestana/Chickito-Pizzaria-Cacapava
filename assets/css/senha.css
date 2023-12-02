@@ -7,6 +7,10 @@ body {
   justify-content: center;
 }
 
+input {
+  color: white;
+}
+
 /* MAIN */
 
 #content {
@@ -24,10 +28,10 @@ body {
 /* DIV PRINCIPAL */
 
 #content-items {
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 10px;
 }
 
 /* LOGO */
@@ -78,6 +82,10 @@ h3 {
   outline: none;
 }
 
+.Hr3 {
+  color: white;
+}
+
 /* DIV INPUT SENHA */
 
 #Passworditr {
@@ -103,6 +111,7 @@ h3 {
 /* LINKS ALTERNATIVOS */
 
 #alts {
+  
   display: flex;
   flex-direction: column;
 }
@@ -138,4 +147,14 @@ h3 {
   background-color: #FA3333;
   width: 70%;
   height: 45%;
+}
+
+#ConfirmaSenhaitr{
+ display: flex;
+ flex-direction: column;
+}
+
+#NovaSenhaitr {
+  display: flex;
+ flex-direction: column;
 }

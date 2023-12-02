@@ -1,10 +1,32 @@
 <?php
 session_start();
 
-if (!isset($_SESSION["id_funcionario"]) || !isset($_SESSION["id_funcionario"])) {
+include 'conexao.php';
+
+if (!isset($_SESSION["id_funcionario"])) {
     header("Location: index.php");
-    exit;
+    exit();
 }
+
+$id_funcionario = $_SESSION['id_funcionario'];
+
+$query = "SELECT nome_adm FROM funcionario WHERE id_funcionario = ?";
+$statement = $conn->prepare($query);
+
+if ($statement) {
+    $statement->bind_param('i', $id_funcionario);
+    $statement->execute();
+    $statement->bind_result($nome_funcionario);
+    if ($statement->fetch()) {
+    } else {
+        $nome_funcionario = "Nome não encontrado";
+    }
+
+    $statement->close();
+} else {
+    echo "Erro na preparação da consulta.";
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -13,6 +35,7 @@ if (!isset($_SESSION["id_funcionario"]) || !isset($_SESSION["id_funcionario"])) 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="assets/img/LogoChickito.png">
     <link rel="stylesheet" href="assets/css/responsivo_home.css">
     <link rel="stylesheet" href="assets/css/home.css">
     <title>Home Chikito Pizzaria</title>
@@ -29,15 +52,16 @@ if (!isset($_SESSION["id_funcionario"]) || !isset($_SESSION["id_funcionario"])) 
         </div>
 
         <ul class="btnnav">
-            <li><a href="home.php">Home</a></li>
+            <li><a href="home.php">Início</a></li>
             <li><a href="cardapio.php">Cardápio</a></li>
             <li><a href="pedidos.php">Pedidos</a></li>
             <li><a href="cozinha.php">Cozinha</a></li>
         </ul>
 
         <div id="logout">
-            <form action="logout.php" method="POST">
-                <a href="logout.php"><img src="assets/img/logout.png" class="logout"></a>
+            <form class="logout" action="logout.php" method="POST">
+                <p class="user_name">Logado como: <?php echo $nome_funcionario; ?></p>
+                <a href="logout.php"><img src="assets/img/logout.png" class="logout-img"></a>
             </form>
         </div>
     </nav>
@@ -46,19 +70,22 @@ if (!isset($_SESSION["id_funcionario"]) || !isset($_SESSION["id_funcionario"])) 
     </div>
 
     <div class="centro">
-      <div class= "introducao" > 
-        <h1>Faça seu pedido agora mesmo!!</h1>
-        <a href="cardapio.php" class="btn-home">Veja o cardápio</a>
+        <div class="introducao">
+            <h1>Faça seu pedido agora mesmo!!</h1>
+            <a href="cardapio.php" class="btn-home">Veja o cardápio</a>
         </div>
-        <div >
-        <a href="#" class="promo">
-            <img  src="assets/img/promo1.png" alt="" class="img_promo" >
-        </a>
+        <div>
+            <a href="#" class="promo">
+                <img src="assets/img/promo1.png" alt="" class="img_promo">
+            </a>
         </div>
 
-    </div> 
+    </div>
 
-
+    <footer>
+        <p class="footer-text">© 2023 Code Flow. Todos os direitos reservados.</p>
+        <p class="footer-text">Versão do Produto: 2.8.1</p>
+    </footer>
 
 </body>
 

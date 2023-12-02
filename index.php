@@ -28,13 +28,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     header('Location: home.php');
                     exit();
                 } else {
-                    echo "Senha incorreta. <a href='index.php'>Tente novamente</a>.";
+                    echo "<script>alert('Dados incorretos, tente novamente.'); window.location.href = 'index.php';</script>";
                 }
             } else {
-                echo "E-mail não encontrado. <a href='index.php'>Tente novamente</a>.";
             }
         } else {
-            echo "Erro na execução da consulta: " . mysqli_error($conn);
+            
         }
 
         mysqli_stmt_close($stmt);
@@ -53,6 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Chikito Pizzaria</title>
+    <link rel="shortcut icon" type="imagex/png" href="assets/img/LogoChickito.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsivo_login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <!-- ALTS -->
                 <div id="alts">
-                    <a href="senha.php" class="esquecer">Esqueceu sua senha?</a>
+                    <a href="redefinir_senha.php" class="esquecer">Esqueceu sua senha?</a>
                     <a href="cadastro.php" class="cadastro">Novo por aqui? Cadastre-se.</a>
                 </div>
 

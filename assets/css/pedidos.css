@@ -1,4 +1,8 @@
 /* Estilizando a tabela */
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/795476916932968499/1173584610786033674/img_fundo.png?ex=65647cd7&is=655207d7&hm=bad2f1d32f914c3d9e1a53126dce5f5f2bdc2556fdd4a76c81ad63ade71841b7&);
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -11,7 +15,6 @@ h1 {
     text-align: center;
 }
 
-/* Estilizando as células do cabeçalho da tabela */
 th {
     background-color: #fd867b;
     color: #000000;
@@ -21,23 +24,19 @@ th {
     border-bottom: 1px solid #d1d0d0;
 }
 
-/* Estilizando as células de dados da tabela */
 td {
     padding: 10px;
     border-bottom: 1px solid #d1d0d0;
 }
 
-/* Estilizando as linhas pares da tabela */
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-/* Estilizando as células de dados quando o mouse passa por cima */
 tr:hover td {
     background-color: #ddd;
 }
 
-/* Estilizando o botão de pedido */
 .btn-pedido {
     font-size: 1.4rem;
     background-color: red;
@@ -75,7 +74,7 @@ tr:hover td {
 }
 
 .salvar-button {
-    background-color: rgb(156, 156, 255);
+    background-color: rgb(0, 255, 50);
     color: white;
     border: none;
     border-radius: 5px;
@@ -83,3 +82,14 @@ tr:hover td {
     height: 40px;
     cursor: pointer;
 }
+
+footer {
+    background-color: #fd867b;
+    text-align: center;
+    width: 100vw;
+}
+
+.editar-produto-select {
+    display: none;
+}
+

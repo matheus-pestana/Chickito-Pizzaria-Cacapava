@@ -1,7 +1,7 @@
 body {
+    background-image: url(https://cdn.discordapp.com/attachments/795476916932968499/1173584610786033674/img_fundo.png?ex=65647cd7&is=655207d7&hm=bad2f1d32f914c3d9e1a53126dce5f5f2bdc2556fdd4a76c81ad63ade71841b7&);
     font-family: 'Inter', sans-serif;
     margin: 0;
-    background: #FFF9EB;
     display: grid;
 
 }
@@ -44,6 +44,10 @@ nav ul {
 }
 
 .logout {
+    display: flex;
+}
+
+.logout-img {
     width: 2vw;
 }
 
@@ -266,4 +270,9 @@ nav ul {
         width: 2rem;
     }
 
+}
+
+footer {
+    background-color: #fd867b;
+    text-align: center;
 }

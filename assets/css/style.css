@@ -7,6 +7,10 @@ body {
   justify-content: center;
 }
 
+input {
+  color: white;
+}
+
 /* MAIN */
 
 #content {
@@ -104,6 +108,7 @@ h3 {
 /* LINKS ALTERNATIVOS */
 
 #alts {
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
