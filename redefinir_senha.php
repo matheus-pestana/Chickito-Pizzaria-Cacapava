@@ -24,21 +24,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'pedrogabrielxx268@gmail.com'; // Seu endereço de email do Gmail
-        $mail->Password = 'ghxo gkma rjgp kewq'; // Senha de aplicativo gerada anteriormente
+        $mail->Username = 'chickitopizzaria@gmail.com'; // Seu endereço de email do Gmail
+        $mail->Password = 'vvzq vjfc vtog dscn'; // Senha de aplicativo gerada anteriormente
         $mail->SMTPSecure = 'PHPMailer::ENCRYPTION_SMTPS';
         $mail->Port = 587;
         
 
-        $mail->setFrom('pedrogabrielxx268@gmail.com', 'ghxo gkma rjgp kewq');
+        $mail->setFrom('chickitopizzaria@gmail.com');
         $mail->addAddress($email);
 
         $mail->isHTML(true);
         $mail->Subject = 'Redefinir Senha - Chikito Pizzaria';
         $mail->Body = 'Clique no link a seguir para redefinir sua senha: ' . 
-            '<a href="https://seusite.com/redefinir_senha.php?token=' . $token . '">Redefinir Senha</a>';
-
-        $mail->send();
+        '<a href="http://localhost/Chickito-Pizzaria-Cacapava/Chickito-Pizzaria-Cacapava/senha.php?token=' . $token . '">Redefinir Senha</a>';
+    $mail->send();
+    
         echo "<script>alert('Um email com as instruções para redefinir a senha foi enviado para o seu email.'); window.location.href = 'index.php';</script>";
     } catch (Exception $e) {
         echo "Erro no envio do email: {$mail->ErrorInfo}";
@@ -47,7 +47,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 mysqli_close($conn);
 ?>
-
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -80,18 +79,6 @@ mysqli_close($conn);
                 <div id="E-mailitr">
                     <h3 class="E-mail">E-mail</h3>
                     <input type="email" class="Hr2" id="email" name="email" required>
-                </div>
-
-                <!-- NOVA SENHA -->
-                <div id="NovaSenhaitr">
-                    <h3 class="Password">Nova senha</h3>
-                    <input type="password" class="Hr3" id="novaSenha" name="novaSenha" required>
-                </div>
-
-                <!-- CONFIRMAR NOVA SENHA -->
-                <div id="ConfirmaSenhaitr">
-                    <h3 class="Password">Confirme a nova senha</h3>
-                    <input type="password" class="Hr3" id="confirmaSenha" name="confirmaSenha" required>
                 </div>
 
                 <!-- ALTS -->
