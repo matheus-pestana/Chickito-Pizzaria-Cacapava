@@ -59,7 +59,7 @@ if ($statement) {
 
         <div id="logout">
             <form class="logout" action="logout.php" method="POST">
-                <p class="user_name">Logado como: <?php echo $nome_funcionario; ?></p>
+                <!-- <p class="user_name">Logado como: <?php echo $nome_funcionario; ?></p> -->
                 <a href="logout.php"><img src="assets/img/logout.png" class="logout-img"></a>
             </form>
         </div>
@@ -114,8 +114,11 @@ if ($statement) {
             </div>
         </div>
         </div>
-
-        <h2 class="title-tipos">Filtros</h2>
+    <div class="title-tipos">
+       <h2>Filtros</h2>
+       <h6 class="descricao">arraste caso queira ver o resto das categorias</h6>
+    </div>
+        
 
         <div id="tipos">
 
@@ -172,7 +175,7 @@ if ($statement) {
             </div>
 
             <div class="card salgada">
-                <img src="assets/img/francatu.png" alt="Frango CaTupiry" class="img_card">
+                <img src="assets/img/francatu.png" alt="Frango CaTupiry" class="img_francatu">
                 <div class="content">
                     <h3 class="nome">Pizza de frango com catupiry</h3>
                     <p class="preco">R$39,99</p>
@@ -181,7 +184,7 @@ if ($statement) {
             </div>
 
             <div class="card salgada">
-                <img src="assets/img/marguerita.png" alt="marguerita" class="img_card">
+                <img src="assets/img/marguerita.png" alt="marguerita" class="img_marg">
                 <div class="content">
                     <h3 class="nome">Pizza marguerita</h3>
                     <p class="preco">R$37,99</p>
@@ -199,7 +202,7 @@ if ($statement) {
             </div>
 
             <div class="card salgada">
-                <img src="assets/img/saecacatu.png" alt="carne seca catupiry" class="img_card">
+                <img src="assets/img/saecacatu.png" alt="carne seca catupiry" class="img_carnsecatu">
                 <div class="content">
                     <h3 class="nome">Pizza de carne seca com catupiry</h3>
                     <p class="preco">R$45,99</p>
@@ -209,7 +212,7 @@ if ($statement) {
 
 
             <div class="card salgada">
-                <img src="assets/img/tomate-seco.png" alt="tomate seco rúcula" class="img_card">
+                <img src="assets/img/tomate-seco.png" alt="tomate seco rúcula" class="img_tomasecoru">
                 <div class="content">
                     <h3 class="nome">Pizza de tomate seco com rúcula</h3>
                     <p class="preco">R$38,99</p>
@@ -218,7 +221,7 @@ if ($statement) {
             </div>
 
             <div class="card doce">
-                <img src="assets/img/chocorango.png" alt="Chocolate com morango" class="img_card">
+                <img src="assets/img/chocorango.png" alt="Chocolate com morango" class="img_moranchoco">
                 <div class="content">
                     <h3 class="nome">Pizza de chocolate com morango</h3>
                     <p class="preco">R$48,99</p>

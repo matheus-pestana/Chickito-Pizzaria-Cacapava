@@ -36,8 +36,8 @@ if ($statement) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="imagex/png" href="assets/img/LogoChickito.png">
-    <link rel="stylesheet" href="assets/css/responsivo_home.css">
     <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/responsivo_inicio.css">
     <title>Home Chikito Pizzaria</title>
 
 </head>
@@ -60,7 +60,6 @@ if ($statement) {
 
         <div id="logout">
             <form class="logout" action="logout.php" method="POST">
-                <p class="user_name">Logado como: <?php echo $nome_funcionario; ?></p>
                 <a href="logout.php"><img src="assets/img/logout.png" class="logout-img"></a>
             </form>
         </div>
@@ -71,7 +70,7 @@ if ($statement) {
 
     <div class="centro">
         <div class="introducao">
-            <h1>Faça seu pedido agora mesmo!!</h1>
+            <h1>Olá, <?php echo $nome_funcionario; ?> seja bem-vindo(a)</h1>
             <a href="cardapio.php" class="btn-home">Veja o cardápio</a>
         </div>
         <div>

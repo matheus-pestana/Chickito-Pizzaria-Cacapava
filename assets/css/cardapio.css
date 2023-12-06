@@ -103,6 +103,28 @@ a {
     margin: 10px;
 }
 
+.img_francatu {
+    width: 20%;
+    margin: 10px;
+}
+.img_carnsecatu {
+    width: 20%;
+    margin: 10px;
+}
+.img_tomasecoru{
+    width: 20%;
+    margin: 10px;
+}
+.img_moranchoco{
+    width: 20%;
+    margin: 10px;
+}
+
+.img_marg {
+    width: 20%;
+    margin: 10px;
+}
+
 .content {
     width: 50%;
     align-self: center;
@@ -368,4 +390,13 @@ footer {
     background-color: #fd867b;
     margin-top: auto;
     width: 100vw;
+    margin: 16px 0 0;
+}
+
+.descricao {
+    display: none;
+}
+
+.user_name p {
+ justify-content: center    ;
 }

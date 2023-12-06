@@ -1,7 +1,12 @@
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-
     nav {
-        width: 54rem;
+        width: 100%;
+        height: 14rem;
+    }
+
+    nav a {
+        font-size: 3rem;
+        padding: 1.5rem;
     }
 
     .logo {
@@ -9,15 +14,24 @@
         width: 4rem;
     }
 
+    .seta {
+        width: 20px;
+    }
 
-    nav ul {
-        list-style: none;
-
+    .promo {
+        
+        width: 40em;
     }
 
     .logout {
-        width: 10vw;
+        width: 2rem;
     }
+
+    .descricao {
+        display: block;
+        font-size: 2rem;
+    }
+
 
     main {
         width: 57rem;
@@ -44,9 +58,6 @@
         font-size: 1rem;
     }
 
-    .preco {
-        font-size: 0.9rem;
-    }
 
     .select-pdt_h2,
 .all-price_h2,
@@ -55,6 +66,22 @@
     align-items: center;
     display: flex;
 }
+.card {
+    width: 79%;
+    background-color: white;
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+.nome{
+    font-size: 2.4rem;
+}
+
+.preco {
+    font-size: 1.9rem;
+}
+
 
 .btn-odr {
     color: white;
@@ -88,12 +115,119 @@ p {
     text-align: center;
 }
 
+#cardapio {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.btn_card {
+    background-color: #E44737;
+    color: white;
+    border: none;
+    width: 40vw;
+    height: 100%;
+    transition: .2s;
+    font-size: 1.5rem;
 }
 
+#tipos {
+    border: 1px solid #c9c9c9;
+    margin: 0 auto;
+    width: 147vw;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    font-size: 27px;
+}
+
+.img_francatu {
+    width: 19%;
+    height: 61%;
+    margin: 7% 0 0 2%;
+}
+
+.img_carnsecatu {
+    width: 19%;
+    height: 61%;
+    margin: 7% 0 0 2%;
+}
+.img_tomasecoru{
+    width: 19%;
+    height: 61%;
+    margin: 7% 0 0 2%;
+}
+.img_moranchoco{
+    width: 19%;
+    height: 61%;
+    margin: 7% 0 0 2%;
+}
+
+.img_marg {
+    width: 19%;
+    height: 61%;
+    margin: 6% 0 0 2%;
+}
+
+#comanda {
+    padding: 30px;
+    border: solid 2px #d1d0d0;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 139vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+}
+
+input[type="text" i] {
+    font-size: 1.5rem;
+}
+
+.comanda_img {
+    width: 51%;
+}
+
+input[type="number" i] {
+   font-size: 1.5rem;
+}
+.btnRemove {
+    font-size: 1.3rem;
+}
+
+#mesa {
+    margin: 10px;
+    height: 2rem;
+    font-size: 1.2rem;
+}
+
+.btn_enviar {
+    font-size: 1.5rem;
+}
+
+footer {
+    position: relative;
+    height: 15rem;
+    width: 100%;
+    margin: 16px 0 0;
+}
+
+footer p {
+    font-size: 2rem;
+    padding: 2rem 0 0 0;
+}
+
+}
 @media (min-width: 480px) and (max-width: 719px) {
 
     nav {
-        width: 100vw;
+        width: 100%;
     }
 
     .logo {
@@ -118,7 +252,10 @@ p {
     html {
         width: 100vw;
     }
-
+    .descricao {
+        display: block;
+        font-size: 2rem;
+    }
     .items-content {
         width: 90vw;
     }
@@ -149,12 +286,14 @@ p {
 
 @media (min-width: 720px) and (max-width: 1023px) {
     nav {
-        width: 100vw;
+        width: 100%;
+        height: 7rem;
+        
     }
 
     .logo {
         vertical-align: middle;
-        width: 4rem;
+        width: 5rem;
     }
 
 
@@ -163,8 +302,12 @@ p {
 
     }
 
-    .logout {
-        width: 5vw;
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    .logout-img {
+        width: 4vw;
     }
 
     main {
@@ -173,6 +316,24 @@ p {
 
     html {
         width: 100vw;
+    }
+
+    .title-tipos {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #tipos {
+        border: 1px solid #c9c9c9;
+        margin: 0 auto;
+        width: 95vw;
+        overflow-x: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tipo-img {
+        width: 15vw;
     }
 
     .items-content {
@@ -187,6 +348,11 @@ p {
         font-size: 1.5rem;
     }
 
+    .title_cardapio {
+        text-align: center;
+        font-size: 2.4rem;
+    }
+
     blockquote {
         margin: 0;
         font-size: 1rem;
@@ -195,11 +361,68 @@ p {
     .preco {
         font-size: 0.9rem;
     }
-}
+     
+    .card {
+        width: 82%;
+        background-color: white;
+        display: flex;
+        margin: 15px;
+        justify-content: space-between;
+    }
+
+    .btn_card {
+        background-color: #E44737;
+        color: white;
+        border: none;
+        width: 17vw;
+        height: 100%;
+        transition: .2s;
+        font-size: 1.2rem;
+    }
+
+    #hora {
+        font-size: 1.5rem;
+    }
+
+    #comanda {
+        padding: 30px;
+        border: solid 2px #d1d0d0;
+        border-radius: 15px;
+        margin: 0 auto;
+        width: 48vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    input[type="text" i] {
+        font-size: 1.1rem;
+    }
+    
+    .comanda_img {
+        width: 51%;
+    }
+    
+    #total {
+        font-size: 1.5rem;
+    }
+
+    input[type="number" i] {
+        font-size: 1.1rem;
+    }
+
+    .btnRemove {
+        font-size: 1.3rem;
+    }
+    
+    .btn_enviar {
+        font-size: 1rem;
+    }
+}  
 
 @media only screen and (min-width: 1024px) and (max-width: 1399px) {
     nav {
-        width: 100vw;
+        width: 100%;
     }
 
     .logo {
@@ -208,11 +431,26 @@ p {
 
     nav ul {
         list-style: none;
-
     }
 
-    .logout {
+    nav a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 26px;
+        font-weight: 600;
+        padding: 22px;
+    }
+
+    .logout-img {
         width: 3vw;
+    }
+
+    .tipo-img {
+        width: 14vw;
+    }
+
+    figcaption {
+        font-size: 1.2rem;
     }
 
     .items-content {
@@ -235,10 +473,31 @@ p {
     .preco {
         font-size: 0.9rem;
     }
+
+    .card {
+        width: 46%;
+        background-color: white;
+        display: flex;
+        margin: 15px;
+        justify-content: space-between;
+    }
+
+    .btn_card {
+        background-color: #E44737;
+        color: white;
+        border: none;
+        width: 10vw;
+        height: 100%;
+        transition: .2s;
+        font-size: 1rem;
+    }
+        
 }
 
 @media only screen and (min-width: 1400px) {
-
+     nav {
+        width: 100%;
+     }
 
     .logo {
         vertical-align: middle;

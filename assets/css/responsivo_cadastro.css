@@ -3,10 +3,10 @@
     /* MAIN */
     #content {
         width: 80vw;
-        height: 80vh;
+        height: 87vh;
         position: relative;
         top: 50%;
-        transform: translateY(10%);
+        transform: translateY(5%);
     }
 
     /* LOGO */
@@ -73,6 +73,13 @@
         background-color: #FA3333;
         width: 70%;
         height: 45%;
+    }
+
+    #alts {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        font-size: 15px;
     }
 }
 
@@ -272,7 +279,7 @@
     /* MAIN */
     #content {
         width: 50vw;
-        height: 80vh;
+        height: 87vh;
         position: relative;
         top: 50%;
         transform: translateY(10%);
@@ -433,10 +440,10 @@
     /* MAIN */
     #content {
         width: 30vw;
-        height: 80vh;
+        height: 87vh;
         position: relative;
         top: 50%;
-        transform: translateY(10%);
+        transform: translateY(6%);
     }
 
     /* LOGO */
