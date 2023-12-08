@@ -10,6 +10,48 @@
         padding: 1.5rem;
     }
 
+    .menu-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #fd867b;
+        padding: 10px;
+    }
+    
+    .hamburger-menu {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bar {
+        width: 55px;
+        height: 3px;
+        background-color: #fff;
+        margin: 6px 0;
+    }
+    
+    .menu-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .menu-list li {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .menu-list a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+    
     .logo {
         vertical-align: middle;
         width: 4rem;
@@ -25,7 +67,11 @@
     }
 
     .logout {
-        width: 2rem;
+        width: 5rem;
+    }
+
+    .logout-img {
+        width: 5rem;
     }
 
     footer {
@@ -51,6 +97,48 @@
     nav a {
         font-size: 3rem;
         padding: 1.5rem;
+    }
+
+    .menu-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #fd867b;
+        padding: 10px;
+    }
+    
+    .hamburger-menu {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bar {
+        width: 55px;
+        height: 3px;
+        background-color: #fff;
+        margin: 6px 0;
+    }
+    
+    .menu-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .menu-list li {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .menu-list a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.6rem;
     }
 
     .logo {
@@ -83,6 +171,10 @@
     
     .logout {
         width: 4rem;
+    }
+
+    .logout-img {
+        width: 5rem;
     }
 
     .img_home {
@@ -163,7 +255,7 @@
     }
 
     nav a {
-        font-size: 18px;
+        font-size: 25px;
         padding: 18px;
     }
 

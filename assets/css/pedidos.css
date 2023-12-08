@@ -83,10 +83,15 @@ tr:hover td {
     cursor: pointer;
 }
 
+.logout-img{
+    width: 3vw;
+}
+
 footer {
     background-color: #fd867b;
     text-align: center;
-    width: 100vw;
+    position: relative;
+    width: 100%;
 }
 
 .editar-produto-select {

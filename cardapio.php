@@ -38,6 +38,7 @@ if ($statement) {
     <link rel="shortcut icon" type="imagex/png" href="assets/img/LogoChickito.png">
     <link rel="stylesheet" href="assets/css/cardapio.css">
     <link rel="stylesheet" href="assets/css/responsivo_cardapio.css">
+    <script src="assets/js/hamburguinho.js"></script>
     <title>Home - Chikito Pizzaria</title>
 
 </head>
@@ -45,27 +46,35 @@ if ($statement) {
 <body>
     <nav class="navbar">
         <div class="logohome">
-            <a href="cardapio.php">
+            <a href="cozinha.php">
                 <img src="assets/img/LogoChickito.png" alt="Logochickito" class="logo">
             </a>
         </div>
 
-        <ul class=" btnnav">
+        <div class="menu-container">
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="menu-list">
             <li><a href="home.php">Início</a></li>
             <li><a href="cardapio.php">Cardápio</a></li>
             <li><a href="pedidos.php">Pedidos</a></li>
             <li><a href="cozinha.php">Cozinha</a></li>
-        </ul>
+            </ul>
+        </div>
+        </div>
 
         <div id="logout">
             <form class="logout" action="logout.php" method="POST">
-                <!-- <p class="user_name">Logado como: <?php echo $nome_funcionario; ?></p> -->
+                <p class="user_name">Logado como: <?php echo $nome_funcionario; ?></p>
                 <a href="logout.php"><img src="assets/img/logout.png" class="logout-img"></a>
             </form>
         </div>
     </nav>
     <main>
-
         <div class="bg">
         </div>
         <div class="modal">

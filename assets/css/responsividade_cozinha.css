@@ -59,6 +59,34 @@
         font-weight: bold;
         font-size: 1.6rem;
     }
+    
+    .bar {
+        width: 55px;
+        height: 3px;
+        background-color: #fff;
+        margin: 6px 0;
+    }
+    
+    .menu-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .menu-list li {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .menu-list a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
 
     .logo {
         vertical-align: middle;
@@ -110,11 +138,12 @@
     th {
         font-size: 1.7rem;   
 }
-    td {
-        font-size: 1.8rem;
-        padding: 4px;
-        text-align: center;
-    }
+  
+     td {
+    font-size: 2.19rem;
+    padding: 4px;
+    text-align: center;
+   }
 
     .edit {
         width: 25vw;
@@ -137,7 +166,7 @@
     footer {
         position: relative;
         height: 15rem;
-        width: 100%;
+        width: 122%;
         margin: 16px 0 0;
     }
     

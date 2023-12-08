@@ -9,10 +9,60 @@
         padding: 1.5rem;
     }
 
+    .menu-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #fd867b;
+        padding: 10px;
+    }
+    
+    .hamburger-menu {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bar {
+        width: 55px;
+        height: 3px;
+        background-color: #fff;
+        margin: 6px 0;
+    }
+    
+    .menu-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .menu-list li {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .menu-list a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+
     .logo {
         vertical-align: middle;
-        width: 4rem;
+        width: 7rem;
     }
+
+    .logout-img {
+        width: 5rem;
+    }
+
+    .user_name {
+        font-size: 6vw;
+    }    
 
     .seta {
         width: 20px;
@@ -209,6 +259,12 @@ input[type="number" i] {
 
 .btn_enviar {
     font-size: 1.5rem;
+}
+.contentModal {
+    font-size: 1.7rem;
+}
+.text_obs {
+    font-size: 2rem;
 }
 
 footer {
